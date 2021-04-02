@@ -1,0 +1,18 @@
+name: openid_connect
+version: 0.1.0
+
+authors:
+  - Johannes Müller <straightshoota@gmail.com>
+
+crystal: ">= 0.36.1"
+
+license: MIT
+
+dependencies:
+  jwt:
+    github: crystal-community/jwt
+
+development_dependencies:
+  http-session:
+    github: straight-shoota/http-session
+    version: ~> 0.2.0
